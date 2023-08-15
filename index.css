@@ -1,0 +1,40 @@
+.parentDiv {
+  padding-left: 17px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+#inputName {
+  padding: 5px;
+  border-radius: 10px;
+  border-color: black;
+}
+.body-class {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.buttons{
+  padding: 3px;
+  border-radius: 10px;
+  /* border: 2px solid rgb(218, 212, 212); */
+  border: 2px solid black;
+  /* background-color: rgb(218, 212, 212); */
+  background-color: black;
+  color: white;
+}
+h1{
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+#inputName{
+  margin-bottom: 15px;
+}
+.labelName{
+  font-size: larger;
+}
+/* .rootDiv > div {
+  display: none;
+} */
+/* .rootDiv.parentDiv > .hidden-button {
+  display: none;
+} */

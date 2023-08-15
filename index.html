@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="index.js"></script>
+    <script src="operation.js"></script>
+    <script src="store.js"></script>
+    <script src="utils.js"></script>
+  </head>
+  <body onload="customMain()" class="body-class">
+    <h1 style="text-align: center">FILE EXPLORER</h1>
+    <text>Enter File/Folder Name : </text>
+    <input type="text" placeholder="Enter File/Folder Name" id="inputName" />
+    <hr />
+    <div class="rootDiv parentDiv" id="0">
+      <span class="fas fa-chevron-right toggle-button"></span>
+      <label class="labelName">Root Folder</label>
+      <span class="file-button buttons hidden-button fas fa-file"></span>
+      <span class="folder-button buttons hidden-button fas fa-folder"></span>
+      <span class="delete-button buttons fas fa-trash"></span>
+    </div>
+  </body>
+</html>
